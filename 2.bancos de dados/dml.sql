@@ -1,13 +1,15 @@
-use   tb_petisBD;
+use petssDB;
+
+insert into  tb_petis(nm_pet)
+
+value ('maal');
+
+select id_pet   id,
+       nm_pet    nome
+from tb_pet;
 
 
-insert into  tb_pet ( nm_pet)
-
-value( 'mel' )
-
-
-SELECT nm_pet,
-      id_pet
-	 
-     
-  FROM tb_pet;
+select id_pet   id,
+       nm_pet    nome
+from tb_pet
+where nm_pet   like '%a%';
